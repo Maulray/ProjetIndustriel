@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0",
-  "id": "314736f1-1e83-49df-8703-415e9e2770b3",
+  "id": "<id>",
   "packageName": "com.microsoft.teams.auth",
   "developer": {
     "name": "Microsoft Corp",
@@ -25,7 +25,7 @@
   "accentColor": "#abcdef",
   "bots": [
     {
-      "botId": "314736f1-1e83-49df-8703-415e9e2770b3",
+      "botId": "<id>",
       "scopes": [
         "personal"
       ],
