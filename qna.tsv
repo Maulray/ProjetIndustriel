@@ -1,0 +1,27 @@
+﻿Question	Answer	Source	Metadata	SuggestedQuestions	IsContextOnly	Prompts	QnaId
+Test	ça fonctionne !	Editorial		[]	false	[]	1
+Qui sont les membres de l'équipe projet ?	Les membres de l'équipe sont :\n\n*   Guillaume IZART\n*   Malaury KESLICK\n*   Théo PONCET	Editorial		[]	false	[]	2
+Qui compose l'équipe ?	Les membres de l'équipe sont :\n\n*   Guillaume IZART\n*   Malaury KESLICK\n*   Théo PONCET	Editorial		[]	false	[]	2
+Comment valider une demande GLPI?	La validation se fait par l'onglet "Validation". Si vous souhaitez des renseignements complémentaires, veuillez demander : "Trouve le fichier S03-PU-001-Utilisation helpdesk Figeac Aero GLPI.pdf". La réponse se trouve au paragraphe 4,5.	Editorial		[]	false	[]	6
+Où valider une demande GLPI?	La validation se fait par l'onglet "Validation". Si vous souhaitez des renseignements complémentaires, veuillez demander : "Trouve le fichier S03-PU-001-Utilisation helpdesk Figeac Aero GLPI.pdf". La réponse se trouve au paragraphe 4,5.	Editorial		[]	false	[]	6
+Je n'arrive pas à valider la demande GLPI.	La validation est accessible si vous disposer du profil "valideur". Afin de vérifier, regarder en haut à droite si ce profil existe dans la liste.	Editorial		[]	false	[]	7
+Comment insérer une pièce jointe dans un mail?	L'insertion d'une Pièce jointe dans un mail se fait via le menu "Message" et le bouton "joindre un fichier".	Editorial		[]	false	[]	8
+Comment réceptionner une prestation dans IFS.	La réception d'une prestation par le demandeur se fait à partir du formulaire "Attestation de Réception"	Editorial		[]	false	[]	9
+C'est quoi le phishing?	Le Phishing (ou Hameçonnage) est une technique d’escroquerie sur Internet consistant à vous piéger en usurpant l’identité d’un tiers de confiance. \n\nVous trouverez plus d'informations en demandant au bot : "Trouve le fichier S03-SG-003_Sensibilisation_Phishing.pdf".	Editorial		[]	false	[]	10
+C'est quoi le fishing?	Le Phishing (ou Hameçonnage) est une technique d’escroquerie sur Internet consistant à vous piéger en usurpant l’identité d’un tiers de confiance. \n\nVous trouverez plus d'informations en demandant au bot : "Trouve le fichier S03-SG-003_Sensibilisation_Phishing.pdf".	Editorial		[]	false	[]	10
+Comment approuver une commande d'achat?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier fr_MAU-139_Commande Achat-Approbation.pdf"	Editorial		[]	false	[]	11
+Comment approuver une demande d'achat?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier fr_MAU-095_Demande Achat-Approbation.pdf"	Editorial		[]	false	[]	12
+Comment créer un ticket?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier S03-PU-001-Utilisation helpdesk Figeac Aero GLPI.pdf". La réponse se trouve au paragraphe 4,4.	Editorial		[]	false	[]	13
+Comment créer une demande d'achat?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier fr_MAU-091_Demande Achat-Création.pdf".	Editorial		[]	false	[]	14
+\n\nComment consulter une demande?\n\n\n	Veuillez spécifier le type de demande que vous souhaitez consulter : demande GLPI ou demande d'achat ?	Editorial		[]	false	[]	15
+Comment consulter une demande GLPI?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier S03-PU-001-Utilisation helpdesk Figeac Aero GLPI.pdf". La réponse se trouve au paragraphe 4,4.	Editorial		[]	false	[]	16
+Comment consulter une demande d'achat?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier fr_MAU-090_Demande Achat-Consultation.pdf".	Editorial		[]	false	[]	17
+Où consulter le suivi de mon ticket?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier S03-PU-001-Utilisation helpdesk Figeac Aero GLPI.pdf". La réponse se trouve au paragraphe 4,4.	Editorial		[]	false	[]	18
+Où voir le suivi de mon ticket GLPI?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier S03-PU-001-Utilisation helpdesk Figeac Aero GLPI.pdf". La réponse se trouve au paragraphe 4,4.	Editorial		[]	false	[]	18
+Comment ajouter une pièce jointe?	Veuillez préciser dans quel type d'environnement vous souhaitez ajouter votre pièce jointe : dans l'ERP dans un mail.	Editorial		[]	false	[]	19
+Comment ajouter une pièce jointe dans l'ERP?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier Ajout d'une pièce jointe à un objet.ppsx".	Editorial		[]	false	[]	20
+Comment ajouter une pièce jointe dans un mail?	L'insertion d'une Pièce jointe dans un mail se fait via le menu "Message" et le bouton "joindre un fichier".	Editorial		[]	false	[]	21
+Où sont mes favoris dans IFS?	Pour obtenir votre réponse, veuillez demander : "Trouve le fichier Navigation dans IFS.ppsx". La réponse se trouve dans le chapitre 2.	Editorial		[]	false	[]	22
+Comment réceptionner une prestation dans IFS?	La réception d'une prestation par le demandeur se fait à partir du formulaire "Attestation de Réception". Celui ci s'obtient en demandant au bot : "Trouve le fichier FORM_Autorisation de réception.docx".\n\nVous pouvez également suivre un tutoriel en demandant : "Trouve le fichier TUTO_Attestation de Réception.ppsx".	Editorial		[]	false	[]	23
+Qui contacter pour un problème de sécurité?	Veuillez préciser le type de problème de sécurité : informatique ou HSE ?	Editorial		[]	false	[]	24
+Qui contacter pour un problème de sécurité informatique?	Chaque filiale dispose d'un référent sécurité SI. Vous trouverez son nom dans la procédure d'aide. Celle ci est accessible en demandant : "Trouve le fichier S03-SO-001_IT Security Focal Point.pdf".	Editorial		[]	false	[]	25

@@ -1,0 +1,5 @@
+botbuilder-ai
+botbuilder-core>=4.7.0
+aiohttp
+flask
+Office365-REST-Python-Client

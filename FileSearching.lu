@@ -1,0 +1,84 @@
+
+> LUIS application information
+> !# @app.name = FileSearching
+> !# @app.desc = Application permettant au chatbot de Figeac Aero de rechercher des fichiers dans ses différentes bases de données
+> !# @app.versionId = 0.1
+> !# @app.culture = fr-fr
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.settings.NormalizeDiacritics = true
+> !# @app.settings.NormalizePunctuation = true
+> !# @app.tokenizerVersion = 1.0.0
+
+
+> # Intent definitions
+
+# FileSearching
+- cherche {@File={@name=directory/subdir/cefichier}{@extension=.h}}
+- cherche {@File={@name=file}{@extension=.txt}}
+- je recherche {@File={@name=fichier}{@extension=.pdf}}
+- montre moi {@File={@name=dos1/directory2/subdir3/fichier}{@extension=.pdf}}
+- montre-moi {@File={@name=thatfile}{@extension=.xlxs}}
+- où est {@File={@name=.dossiercaché/fichierconfig}{@extension=.py}}
+- où est {@File={@name=cefichier}{@extension=.c}}?
+- où est {@File={@name=data}}?
+- ouvre {@File={@name=dossier/machinchose}{@extension=.txt}}
+- ouvre {@File={@name=nomdefichier}{@extension=.pdf}}
+- peux-tu me trouver {@File={@name=donnees}{@extension=.xlxs}} ?
+- trouve {@File={@name=hello}{@extension=.java}}
+- trouve {@File={@name=truc}}
+
+
+# Greeting
+- bonjour!
+- hello
+- hey
+- hi
+- salut
+
+
+# Helper
+- a quoi sers-tu ?
+- aide-moi
+- en quoi peux-tu m'aider?
+- help
+- qu'est-ce que tu peux faire pour moi?
+- tu peux faire quoi?
+- tu sers à quoi?
+
+
+# None
+- il fait beau
+- j'aime le chocolat
+- je danse la macarena
+- le ciel est bleu
+
+
+# Thanks
+- merci
+- ok
+- parfait !
+- super
+
+
+> # Entity definitions
+
+@ ml File
+    - @ ml name
+    - @ ml extension usesFeature extension
+
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+@ phraselist extension(interchangeable) disabledForAllModels = 
+	- .pdf,.jar,.txt,.md,.doc,.docx,.jpeg,.ods,.xlsx,.tiff,.tif,.svg,.mov,.avi,.wmv,.mpg,.mkv,.mpeg,.dat,.divx,.m2ts,.rm,.3g2,.mid,.php,.asp,.sql,.ppsx,.dwg,.cpp,.dbf,.db,.java,.pptm,.dotx,.js,.m3u,.aspx,.xlsb,.dotm,.accdb,.dot,.class,.max,.fla,.cs,.potx,.7z,.msg,.xltx,.xltm,.ppsm,.sldx,.potm,.ppam,.xlw,.pot,.xlt,.sldm,.docb,.vmx,.vdi,.vmdk,.nef,.ots,.otp,.odg,.stc,.sti,.otg,.sxd,.ldf,.myd,.crt,.sxc,.djvu,.sxi,.sqlite3,.key,.asm,.pas,.bak,.stw,.ott,.sxw,.cgm,.sqlitedb,.pem,.mdf,.tbk,.tar,.asc,.c,.arc,.bat,.csr,.cmd,.pst,.frm,.wks,.dif,.tgz,.xlc,.gpg,.sch,.vbs,.rb,.pfx,.gz,.bz2,.wb2,.p12,.der,.wpd,.exe,.pif,.com,.scr,.cer,.eml,.htm,.cab,.wps,.ptx,.cdr,.indd,.pcd,.ws,.dxf,.css,.jpe,.crw,.cr2,.dcr,.odm,.kdc,.sav,.dng,.py,.arw,.orf,.raf,.pdd,.odc,.pef,.erf,.srf,.x3f,.vcf,.rw2,.sb,.mef,.nrw,.bkp,.pak,.m4a,.map,.tax,.menu,.bar,.ogg,.to,.tv,.aac,.credit,.wiki,.immo,.xyz,.info,.zone,.tools,.h,.zip,.tar.gz,.pps,.ppt,.iso,.gzip,.sln,.ifo,.img,.trp,.tp,.nrg,.bin,.m2t,.flac,.ace,.odt,.xls,.lha,.lzh,.rar,.bmp,.gif,.pmb,.jpg,.png,.sys,.lib,.log
+
+
+> # List entities
+
+> # RegEx entities
+
+

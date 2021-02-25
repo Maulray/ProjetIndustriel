@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0",
+  "id": "314736f1-1e83-49df-8703-415e9e2770b3",
+  "packageName": "com.microsoft.teams.auth",
+  "developer": {
+    "name": "Microsoft Corp",
+    "websiteUrl": "https://example.azurewebsites.net",
+    "privacyUrl": "https://example.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://example.azurewebsites.net/termsofuse"
+  },
+  "name": {
+    "short": "POC FA",
+    "full": "POC pour Figeac Aero"
+  },
+  "description": {
+    "short": "Demonstration du POC pour Fifeac Aero.",
+    "full": "Demonstration du POC, résalisé par Guillaume Izart, Malaury Keslick et Théo Poncet, pour Fifeac Aero."
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#abcdef",
+  "bots": [
+    {
+      "botId": "314736f1-1e83-49df-8703-415e9e2770b3",
+      "scopes": [
+        "personal"
+      ],
+      "supportsFiles": true
+    }
+  ],
+  "validDomains": [
+    "*.azurewebsites.net",
+    "*.botframework.com"
+  ]
+}
